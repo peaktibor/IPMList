@@ -1,0 +1,10 @@
+*.exe
+*.dbg
+_*.il
+*.backup
+*.bck
+YTF*.*
+lib/
+backup/
+cfg_package/
+src_package/

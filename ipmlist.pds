@@ -1,0 +1,25 @@
+PDS    Fr   Len             FieldName long                        FN short           Conv    ForceBlank  NoShow  DefLen
+---    --   -------------   ---------------------------------     ---------------    ------  -           -       ---
+0002 ; an ; F  ;  3 ;     ; Product Identifier                  ; ProdId
+0005 ; an ; V  ; 11 ; 110 ; Message Error Indicator             ; ErrorInd
+0020 ;  n ; F  ;  6 ;     ; ICCR Effective Date                 ; ICCR_EffDt
+0021 ;  n ; F  ;  7 ;     ; ICCR Percentage                     ; ICCR_Pct
+0022 ;  n ; F  ;  1 ;     ; Recurring Payment Indicator         ; RecPymnInd
+0023 ; an ; F  ;  3 ;     ; Terminal Type                       ; TermType
+0025 ; an ; V  ;  1 ;   7 ; Message Reversal Indicator          ; RevInd
+0026 ; an ; V  ;  1 ;   7 ; File Reversal Indicator             ; FileRevers
+0043 ; an ; F  ;  3 ;     ; Program Registration Id             ; ProgRegId
+0052 ;  n ; F  ;  3 ;     ; Electronic Commerce SecLevel Ind.   ; EC SecLevInd      ;No;     N;          N
+0105 ;  n ; F  ; 25 ;     ; File Id                             ; *                 
+0110 ;  n ; F  ; 25 ;     ; Transmission ID                     ; 
+0122 ;  n ; F  ;  1 ;     ; Processing Mode                     ; ProcMode          ;No;     N;          N
+0137 ;  n ; V  ; 17 ;  20 ; Fee Collection Control Number       ; FeeCollCtrlNum
+0138 ;  n ; F  ;  8 ;     ; Source Message Number Id            ; SrcMsgNumId
+0146 ;  n ; V  ; 28 ; 336 ; Amounts, Transaction Fee            ;
+0148 ; an ; V  ;  4 ;  60 ; Currency Exponents                  ; Cry Exponents   
+0149 ;  n ; F  ;  6 ;     ; Currency Codes, Amounts, Original   ; CryCde AmtOrig
+0158 ; an ; V  ; 12 ;  20 ; Business Activity                   ; 
+0170 ; an ; V  ; 16 ;  57 ; Card Acceptor Inquiry Information   ; AccInqInf         ;No;     N;          Y
+0185 ; an ; V  ; 32 ;  32 ; Accountholder Authentication Value  ; *                 ;No;     N;          N
+0191 ; an ; V  ;  1 ;   1 ; Originating Message Format          ; OrgMsgFrmt        ;No;     N;          Y
+0375 ; an ; V  ;  1 ;   1 ; Member Reconciliation Indicator 1   ; ReconcInd         ;No;     N;          Y

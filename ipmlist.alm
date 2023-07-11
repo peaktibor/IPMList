@@ -1,0 +1,125 @@
+Date              n    6  Dátum -                              Dátum
+Time              n    6  Idöpont -                            Idö
+I                 n    1  Mixed Use                            I
+AC_BIN            n    6  Acquirer BIN -                       AC_BIN 
+J_DATE            n    4  Julian date -                        J_Date  
+SEQ               n   11  Sequence number by acquirer -        SEQ_NUM 
+CH_DIG            n    1  Check Digit -                        ChDig
+AcqRef            n   22  Acquirer Reference
+FeeTyp            n    2  Fee Type -                           FeeTyp 
+CurC              n    3  Currency Code -                      Cur
+CDFlag            an   1  Credit/Debit Flag -                  C/D 
+TxFee             n    8  Transaction Fee -                    Tx Fee 
+Exp               n    1  Exponent Conversion Rate -           E
+ConvRt            n    7  Conversion Rate -                    ConvRt  
+RecFee            n    8  Reconciliation Fee -                 Rec.Fee 
+ProFee            n    8  Transaction Processing Fee -         TxProFee   
+ColFee            n    8  Collection Fee -                     CollFee   
+FormCd            an   2  Format Code - SG5                    FC 
+Verzió            n    2  Version Number - SG6                 Vs 
+SMI               an   1  Settlement Method Indicator - S09    SMI 
+ExpTx             an   1  Currency Exponent Transaction - S11  ExpTx
+ExpRec            an   1  Currency Exp. Reconciliation - S10   ExpRec
+ExCard            an   1  Currency Exponent Cardholder - S12   ExpCH
+TxType            an   2  Transaction Type - SI7               TxTyp
+TxFeeR            an   4  Transaction Fee Rule - SH6           TxFeeRule
+PrFeeR            an   4  Processing Fee Rule - SH7            PrFeeRule
+D_C_C             n    4  Date Conversion Cardholder - S13     DateConvCH
+MagnTr            n    1  Magnetic track - S14                 MagnTr
+TxTrac            an  22  Trans. Trace ID - SS6            
+DocInd            an   1  Documentation Indicator - S20        DocInd 
+ChaRea            n    4  Original ChargeBack Reason - SK1     OrChaRea 
+CcyRec            n    3  Original Ccy Code, Recon. - SH0      OrCcyRec
+OrERec            n    1  Original Ccy Exp., Recon. - SR6      OrERec
+MsgTxt            an  38  Message Text Block - S21  
+ImProc            an   2  Electr.Image Proc.End-Point - SS1    ImProc
+ByPass            an   2  Edit By-pass Indicator - SS2         ByPass
+Exclus            an   1  Edit Exclusion Indicator - SS5       Exclus
+Sorted            a    1  Sorted File Indicator - SH8          Sort? 
+Test              a    1  Test File Flag - SL3                 Test? 
+FileId            an  18  File Identification - S02,S04        File Id
+AmtFee            n   12  Amount, Fee -                        Amount,Fee
+NumFee            n   10  Number, Fee, Total -                 Number,Fee
+ErrSev            an   1  Error Severity - S57                 ErrSev 
+ErrCod            an   4  Error Code - S58                     ErrCode 
+Field             an   3  Field Identification - S59           Field 
+R_Date            n    6  Rejected Reconciliation Date - S60   RecDate 
+RecInd            n    3  Rejected Reconc. Indicator - S61     RecInd
+FIDN              an  18  Rejected File ID Number - S63        File ID Num 
+MsgNum            n    8  Rejected Message Number - SH3        MsgNum 
+BadFld            an  30  Field in Error - SH4                 Hibás Mezõ                     
+JoRec             an 800  Rej. (and corrected) Record - S65    Javított Rec
+MsgTyp            n    4  Message Type - S68                   MsgTyp 
+AcntId            an  34  Account ID - D01                    
+StlGID            an   4  Settlement Group ID - D02            StlGID 
+StlGWd            an  20  Settlement Group - D03               Stl. Group
+StlGSc            an   1  Settlement Group Scope - D04         StlGSc 
+PayCur            n    3  Payment Currency Code - D05          PayCur
+ExpPay            an   1  Payment Currency Exponent - D06      ExpPay 
+StlDt             n    6  Settlement Date - D07                Stl.Date 
+ValDt             n    6  Date, Value - SG7                    Value Date
+BIC               an  11  Bank Identifier Code - D78           Bank Id Code
+ExRate            n    1  Currency Rate Exponent - D09         E 
+C_Rate            n   10  Currency Rate - D10                  Cur.Rate
+CoPID             n    9  CounterPart Europay Member ID - D38  CoPId 
+BatTyp            n    2  Batch Type - SJ1                     BatTyp 
+RevInd            an   1  Batch Reversal Indicator - SJ2       Rev 
+RecSeq            an   1  Batch Reconciliation sequence - D39  Seq 
+CurRec            n    3  Currency Code, Reconciliation - D40  CurRec 
+ExpRec            an   1  Currency Exp. Rec. - D41             E 
+CurCoP            n    3  Currency Code, CounterPart - D42     CurCoP
+ExpCoP            an   1  Currency Exp. CounterPart - D43      E
+RecDt             n    6  Date, Reconciliation - D44           RecDt 
+RecInd            n    3  Reconciliation Indicator - D45       RecInd 
+RecRef            n    8  Reconciliation Ref.Num - D46         RecRef 
+RefDt             n    6  Reconciliation Re. Date - D47        RefDt 
+TFeeRC            an  13  Total Fees Amount, RecCur - D48      Tot.Fees RC 
+ANetRC            an  17  Amount Net, RecCur - D49             Amt Net RC 
+TFeePC            an  13  Total Fees Amount, PayCur - D50      Tot.Fees PC 
+ANetPC            an  17  Amount Net, PayCur - D51             Amt Net PC  
+ArrTm             n    6  Arrival Time Factor - D52            ArrTm
+ArrTmE            n    1  Arrival Time Factor Exp - D53        E
+StlFee            an  13  Settlement Fees Amount - D54         Stl.Fees Amt
+TFPCoP            an  13  Tot Fees Amt, PayCur Cop - D55       TFees PC CoP
+ANPCoP            an  17  Amt Net PayCur Cop - D56             AmnNet PCCop
+FATMRC            an  13  Fees Amt ATM, RecCur - D57           Fees ATM RC
+AATMRC            an  17  Amount ATM, RecCur - D58             Amt Atm RC
+FCshRC            an  13  Fees Amt Cash, RecCur - D59          Fees Cash RC
+ACshRC            an  17  Amount Cash, RecCur - D60            Amt Cash RC 
+FRetRC            an  13  Fees Amt Retail, RecCur - D61        Fees Ret RC 
+ARetRC            an  17  Amount Retail, RecCur - D62          Amt Ret RC 
+FCrdRC            an  13  Fees Amt Credit, RecCur - D63        Fees Cred RC 
+ACrdRC            an  17  Amount Credit, RecCur - D64          Amt Cred RC 
+FEchRC            an  13  Fees Amt eurocheque, RecCur - D65    Fees Ech RC  
+AEchRC            an  17  Amount eurocheque, RecCur - D66      Amt Ech RC 
+FUniRC            an  13  Fees Amt Unique, RecCur - D67        Fees Uni RC
+AUniRC            an  17  Amount Unique, RecCur - D68          Amt Uni RC 
+AFColl            an  17  Amount Fees, Collection  - D69       Amt Fee Coll
+Reserv            an  20  Reserved - D70                       
+BilTyp            an   1  Billing Type - D71                   BillTyp
+TotCre            n   16  Total Credit Amount - D72            Total Credit   
+TotDeb            n   16  Total Debit Amount - D73             Total Debit 
+TCSFee            n   12  Total Credit Settlement Fees - D74   T.Cr.Stl.Fee 
+TDSFee            n   12  Total Debit Settlement Fees - D75    T.De.Stl.Fee 
+TrFee             n   12  Transfer Fee - D76                   Transfer Fee 
+FaxFee            n   12  Fax Fee - D77                        Fax Fee
+1                 n    1  1    
+2                 n    1  2    
+3                 n    1  3    
+4                 an   1  4    
+5                 n    1  5    
+6                 n    1  6    
+7                 an   1  7    
+8                 n    1  Authentication Method                8
+9                 n    1  9    
+10                n    1  10  
+11                n    1  11  
+12                n    1  12
+Rek_Db            n    4  Number of Records in Message         Rek_Db
+AktRek            n    4  (Self) Record Number                 Akt_Rek
+MMType            n    4  Message To Member Type               MMType
+MMText            an  80  Message To Member Text                       
+0105_Type         n    3  File Type                            FTyp  
+0105_RefDt        n    6  File_Reference_Date                  RefDt
+0105_ProcID       n   11  Processor_ID                         Processor
+0105_SeqNb        n    5  File_Sequence_Number                 SeqNb

@@ -1,0 +1,10 @@
+12      *       *       Date    Time
+22      *       *       1       2       3       4       5       6       7       8       9       10      11      12
+31      *       *       I       AC_BIN  J_DATE  SEQ     CH_DIG
+46      *       *       FeeTyp  CurC    CDFlag  TxFee   Exp     ConvRt  CDFlag  RecFee  FeeTyp  CurC    CDFlag  ProFee  Exp     ConvRt  CDFlag  RecFee  
+48      *       *       PDSs  
+62      *       *       PDSs  
+123     *       *       PDSs  
+124     *       *       PDSs  
+125     *       *       PDSs  
+0105    *       *       Type    RefDt   ProcID  SeqNb

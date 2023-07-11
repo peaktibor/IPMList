@@ -1,0 +1,73 @@
+F    Fr   Len        FieldName long                        FN short           Conv    ForceBlank  NoShow  DefLen
+---  --   -------    ---------------------------------     ---------------    ------  -           -       ---
+1  ; an ; F  ; 16  ; Bitmap1                             ; BitMap1          ; No;     N;          Y     
+2  ; an ; V  ;  2  ; Primary Account Number              ; PAN              ;
+3  ; n  ; F  ;  6  ; Processing Code                     ; PRO_Cd           ;
+4  ; n  ; F  ; 12  ; Amount, Transaction                 ; Amount Tr.       ;                           
+5  ; n  ; F  ; 12  ; Amount, Reconciliation              ; Amount Rec.      ;                           
+6  ; n  ; F  ; 12  ; Amount, Cardholder                  ; Amount Card.     ;                           
+8  ; n  ; F  ;  8  ; Amount, Cardholder Billing Fee      ; Ch.B.Fee         ;                           
+9  ; n  ; F  ;  8  ; Conversion Rate,Reconciliation      ; Conv_Rec         ;                           
+10 ; n  ; F  ;  8  ; Conv. Rate, Cardholder Billing      ; Cnv_Card         ;                           
+11 ; n  ; F  ;  6  ; System Trace Audit Number           ; STAN             ;                           
+12 ; n  ; F  ; 12  ; Date and Time, Local Transaction    ; DATE-TIME        ;                           
+14 ; n  ; F  ;  4  ; Date, Expiration                    ; DateExp          ; No;     Y;          N
+15 ; n  ; F  ;  6  ; Date, Settlement                    ; Settl.           ;
+16 ; n  ; F  ;  4  ; Date, Conversion                    ; Cnv.             ;                           
+22 ; an ; F  ; 12  ; Point of Service Data Code          ; POS Data kód     ;                           
+23 ; n  ; F  ;  3  ; Card Sequence Number                ; Seq              ; No;     Y;          N                          
+24 ; n  ; F  ;  3  ; Function Code                       ; FUC              ;                           
+25 ; n  ; F  ;  4  ; Message Reason Code                 ; AzOk             ; No;     Y;          N                          
+26 ; n  ; F  ;  4  ; Card Acceptor Business Code         ; Acc              ;                           
+28 ; n  ; F  ;  6  ; Date, Reconciliation                ; D_Rec.           ;                           
+29 ; n  ; F  ;  3  ; Reconciliation Indicator            ; Ind              ;                           
+30 ; n  ; F  ; 24  ; Amounts, Original                   ;                  ;                           
+31 ; n  ; V  ;  2  ; Acquiring Reference Data            ; Acq. Ref. D.     ;                           
+32 ; an ; V  ;  2  ; Acquiring Inst. ID Code             ; Acq.  ID         ; No;     Y;          N;      8
+33 ; n  ; V  ;  2  ; Forwarding Institution ID           ; FID........      ;                           
+37 ; an ; F  ; 12  ; Retrieval Reference Number          ; Retr. Ref.       ; No;     Y;          N
+38 ; an ; F  ;  6  ; Approval Code                       ; Appr.C           ;                           
+39 ; n  ; F  ;  3  ; Action Code                         ; Act              ;                           
+40 ; n  ; F  ;  3  ; Service Code                        ; Srv              ; No;     Y;          N                           
+41 ; an ; F  ;  8  ; Card Acceptor Terminal ID           ; Acc Term         ;                           
+42 ; an ; F  ; 15  ; Card Acceptor ID Code               ; Acc ID Code      ;                           
+43 ; an ; V  ;  2  ; Card Acceptor Name & Location.............................; *                ;
+46 ; an ; V  ;  3  ; Amount Fees                         ;                  ;                           
+48 ; an ; V  ;  3  ; Additional Data                     ; Add.Data         ;                           
+49 ; n  ; F  ;  3  ; Currency Code,Transaction           ; C_T              ;                           
+50 ; n  ; F  ;  3  ; Currency Code,Reconciliation        ; C_R              ;                           
+51 ; n  ; F  ;  3  ; Currency Code, Cardholder Billing   ; C_C              ;                           
+54 ; an ; V  ;  3  ; Amounts, additional                 ; Amt.Addit.       ;                           
+55 ; an ; V  ;  3  ; ICC System Related Data             ; *                ; No;     N;          Y     
+56 ; n  ; V  ;  2  ; Original Data Elements              ;                  ; 
+62 ; an ; V  ;  3  ; Additional Data 2                   ; Add.Data.2       ; 
+63 ; an ; V  ;  3  ; Transaction Life Cycle ID           ; Life Cycle       ; 
+71 ; n  ; F  ;  8  ; Message Number                      ; MSG_NUM          ; No;     N;          Y     
+72 ; an ; V  ;  3  ; Data Record                         ;                  ; 
+73 ; an ; F  ;  6  ; Action Date                         ; ActionDt         ; 
+74 ; n  ; F  ; 10  ; Credits, Number                     ; Cred.Num         ; 
+75 ; n  ; F  ; 10  ; Credits, Reversal Number            ; Cred.Rev         ; 
+76 ; n  ; F  ; 10  ; Debits, Number                      ; Deb.Num          ; 
+77 ; n  ; F  ; 10  ; Debits, Reversal Number             ; Deb.Rev_N        ; 
+85 ; n  ; F  ; 10  ; Fee Collection, Number              ; Fee_Co.Num       ; 
+86 ; n  ; F  ; 16  ; Credits, Amount                     ; Cred. Amount     ; 
+87 ; n  ; F  ; 16  ; Credits, Reversal Amount            ; Cred.Rev.Am.     ; 
+88 ; n  ; F  ; 16  ; Debits, Amount                      ; Deb. Amount      ; 
+89 ; n  ; F  ; 16  ; Debits, Reversal Amount             ; Deb.Rev.Am.      ; 
+93 ; an ; V  ;  2  ; Trans. Destination Ins. ID          ; Tr.DID           ; 
+94 ; an ; V  ;  2  ; Trans. Originator Ins. ID           ; Tr.OID.....      ; 
+95 ; n  ; V  ;  2  ; Card Issuer Reference Data          ; IssRef           ; 
+97 ; an ; F  ; 17  ; Amount, Net Reconciliation          ; Am.Net Rec.      ; 
+100; n  ; V  ;  2  ; Receiving Institution ID Code       ; RID              ; 
+104; an ; V  ;  3  ; Transaction Description             ; Tr_D             ; 
+105; n  ; F  ; 16  ; Credits, Chargeback Amount          ; Cred.Ch.Am.      ; 
+106; n  ; F  ; 16  ; Debits, Chargeback Amount           ; Deb.Ch.Am.       ; 
+107; n  ; F  ; 10  ; Credits, Chargeback Number          ; Cred.Ch.Nu       ; 
+108; n  ; F  ; 10  ; Debits, Chargeback Number           ; Deb.Ch.Num       ; 
+109; n  ; V  ;  2  ; Credits, Fee Amounts                ;                  ; 
+110; n  ; V  ;  2  ; Debits, Fee Amounts                 ;                  ; 
+111; n  ; V  ;  3  ; Amount, MCCR                        ; Amt.MCCR         ; 
+123; an ; V  ;  3  ; Additional Data 3                   ; Add.Data.3       ; 
+124; an ; V  ;  3  ; Additional Data 4                   ; Add.Data.4       ; 
+125; an ; V  ;  3  ; Additional Data 5                   ; Add.Data.5       ; 
+ 

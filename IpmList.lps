@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="IpmList.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="45"/>
+        <CursorPos X="3" Y="52"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Torzs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="16" Y="91"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="IPM_TXT.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="24" Y="76"/>
+        <UsageCount Value="21"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ipmview_unit1.pas"/>
+        <UnitName Value="IPMView_unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Torzs_MAN.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="109"/>
+        <CursorPos X="3" Y="119"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="118"/>
+        <CursorPos X="21" Y="126"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="21" HistoryIndex="20">
+      <Position1>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="38"/>
+      </Position1>
+      <Position2>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="63" Column="18" TopLine="57"/>
+      </Position2>
+      <Position3>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="13" Column="4"/>
+      </Position3>
+      <Position4>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="11" Column="10" TopLine="4"/>
+      </Position4>
+      <Position5>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="28" Column="8" TopLine="21"/>
+      </Position5>
+      <Position6>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="69" TopLine="55"/>
+      </Position6>
+      <Position7>
+        <Filename Value="IpmList.lpr"/>
+      </Position7>
+      <Position8>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="35" Column="14" TopLine="18"/>
+      </Position8>
+      <Position9>
+        <Filename Value="IpmList.lpr"/>
+      </Position9>
+      <Position10>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="17" Column="18"/>
+      </Position11>
+      <Position12>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="626" Column="17" TopLine="609"/>
+      </Position12>
+      <Position13>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="746" Column="24" TopLine="727"/>
+      </Position13>
+      <Position14>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="17" Column="18" TopLine="7"/>
+      </Position14>
+      <Position15>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="626" Column="17" TopLine="609"/>
+      </Position15>
+      <Position16>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="715" Column="22" TopLine="704"/>
+      </Position16>
+      <Position17>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="29" Column="38" TopLine="19"/>
+      </Position17>
+      <Position18>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="43" Column="51" TopLine="29"/>
+      </Position18>
+      <Position19>
+        <Filename Value="IpmList.lpr"/>
+        <Caret Line="28" Column="43" TopLine="27"/>
+      </Position19>
+      <Position20>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="156" TopLine="136"/>
+      </Position20>
+      <Position21>
+        <Filename Value="IPM_TXT_MAN.pas"/>
+        <Caret Line="1184" TopLine="1169"/>
+      </Position21>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
