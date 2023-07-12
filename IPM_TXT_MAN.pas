@@ -1,5 +1,5 @@
 Unit IPM_TXT_MAN;
-
+//
 Interface
 
 Uses globals, Torzs_MAN;
